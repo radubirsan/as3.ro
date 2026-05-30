@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AS3.ro</title>
+  <meta name="description" content="AS3.ro — coming soon." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <h1 class="logo">AS3<span class="dot">.ro</span></h1>
+      <p class="tagline">Something new is coming here.</p>
+    </header>
+
+    <section class="card">
+      <p>
+        This site is hosted for free on
+        <a href="https://pages.github.com" target="_blank" rel="noopener">GitHub Pages</a>
+        and served over your own domain, <strong>as3.ro</strong>.
+      </p>
+      <p class="muted">Edit <code>index.html</code> and <code>style.css</code> to make it yours.</p>
+    </section>
+
+    <footer class="foot">
+      <span>&copy; <span id="year"></span> as3.ro</span>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
